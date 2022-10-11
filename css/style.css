@@ -1,7 +1,8 @@
 /* COMMON */
 
 section {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    padding: 30px;
 }
 /* HEADER */
 
@@ -53,4 +54,9 @@ li {
 
 .square-gray {
     background-color: #ccb2a3;
+}
+
+#about {
+    background-color: #1abc9c;
+    color:#fff;
 }
