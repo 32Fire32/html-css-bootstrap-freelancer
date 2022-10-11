@@ -60,3 +60,14 @@ li {
     background-color: #1abc9c;
     color:#fff;
 }
+
+/* FOOTER */
+
+footer {
+    background-color:#3a546d ;
+    color:#fff;
+}
+
+.post-footer {
+    background-color: #2c3e50;
+}
