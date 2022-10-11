@@ -1,4 +1,8 @@
+/* COMMON */
 
+section {
+    margin-bottom: 50px;
+}
 /* HEADER */
 
 header {
@@ -21,4 +25,32 @@ li {
 
 #hero {
     background-color: #1abc9c;
+}
+
+.square {
+    border-radius: 10px;
+}
+
+.square-violet {
+    background-color: #ba4b63;
+}
+
+.square-cyan {
+    background-color: #1ea4b6;
+}
+
+.square-dark {
+    background-color: #000000;
+}
+
+.square-heavenly {
+    background-color: #1c83c1;
+}
+
+.square-blue {
+    background-color: #0e38b5;
+}
+
+.square-gray {
+    background-color: #ccb2a3;
 }
