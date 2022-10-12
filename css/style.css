@@ -1,6 +1,7 @@
 @import 'variables.css';
 @import 'utilities.css';
 @import 'components';
+@import 'dividers.css';
 
 
 /* COMMON */
@@ -17,6 +18,30 @@ section {
 
 /* MAIN */
 
+.star {
+    color: inherit;
+}
+
+.star::before {
+    content: '';
+    display: block;
+    height: 0.25rem;
+    width: 4.375rem;
+    background-color: currentColor;
+    border-radius: 0.625rem;
+    margin-right: 0.625rem;
+}
+
+.star::after {
+    content: '';
+    display: block;
+    height: 0.25rem;
+    width: 4.375rem;
+    background-color:currentColor;
+    border-radius: 0.625rem;
+    margin-left: 0.625rem;
+}
+
 .avatar-img {
     width:14.375rem;
 }
@@ -28,32 +53,6 @@ section {
 .fa-star {
     font-size: 1.5625rem;
 }
-
-.star {
-    color: inherit;
-}
-
-.star::before {
-    content: '';
-    display: block;
-    height: 4px;
-    width: 70px;
-    background-color: currentColor;
-    border-radius: 10px;
-    margin-right: 10px;
-}
-
-.star::after{
-    content: '';
-    display: block;
-    height: 4px;
-    width: 70px;
-    background-color:currentColor;
-    border-radius: 10px;
-    margin-left: 10px;
-}
-
-
 
 .square-violet {
     background-color: #ba4b63;
@@ -101,13 +100,13 @@ footer {
 }
 
 .circle {
-    font-size: 25px;
-    width: 50px;
-    height: 50px;
+    font-size: 1.5625rem;
+    width: 3.125rem;
+    height: 3.125rem;
     border-radius: 50%;
     border:1px solid #fff;
     text-align: center;
-    line-height: 50px;
+    line-height: 3.125rem;
 }
 
 .start {
