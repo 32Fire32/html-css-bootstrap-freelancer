@@ -84,6 +84,16 @@ section {
     color:#fff;
 }
 
+input {
+    border: none;
+}
+
+.form-control {
+    border:none;
+    border-radius: 0;
+    border-bottom: 1px solid #ced4da;
+}
+
 /* FOOTER */
 
 footer {
