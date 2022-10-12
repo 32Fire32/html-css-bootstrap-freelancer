@@ -1,5 +1,6 @@
 @import 'variables.css';
 @import 'utilities.css';
+@import 'components';
 
 
 /* COMMON */
@@ -11,9 +12,39 @@ section {
 
 /* MAIN */
 
-.square {
-    border-radius: 10px;
+.avatar-img {
+    width:14.375rem;
 }
+
+.square {
+    border-radius: 0.625rem;
+}
+
+.fa-star {
+    font-size: 1.5625rem;
+}
+
+.star::before {
+    content: '';
+    display: block;
+    height: 4px;
+    width: 70px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.star::after{
+    content: '';
+    display: block;
+    height: 4px;
+    width: 70px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+
 
 .square-violet {
     background-color: #ba4b63;
