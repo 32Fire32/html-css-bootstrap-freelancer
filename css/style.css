@@ -8,22 +8,6 @@ section {
     margin-bottom: 30px;
     padding: 30px;
 }
-/* HEADER */
-
-header {
-    color: #fff;
-    padding: 1.25rem 3.125rem;
-}
-
-ul {
-    list-style: none;
-    margin:0;
-    padding: 0;
-}
-
-li {
-    margin-left: 20px;
-}
 
 /* MAIN */
 

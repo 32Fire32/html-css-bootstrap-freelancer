@@ -11,3 +11,7 @@
 .secondary-color-dark {
     background-color: var(--secondary-color-dark);
 }
+
+.color-text-white {
+    color:var(--color-white);
+}
