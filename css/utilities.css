@@ -1,0 +1,13 @@
+/* BACKGROUND COLOR */
+
+.primary-color {
+    background-color: var(--primary-color);
+}
+
+.secondary-color {
+    background-color: var(--secondary-color);
+}
+
+.secondary-color-dark {
+    background-color: var(--secondary-color-dark);
+}

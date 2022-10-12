@@ -1,3 +1,7 @@
+@import 'variables.css';
+@import 'utilities.css';
+
+
 /* COMMON */
 
 section {
@@ -7,7 +11,6 @@ section {
 /* HEADER */
 
 header {
-    background-color: #2c3e50;
     color: #fff;
     padding: 1.25rem 3.125rem;
 }
@@ -23,10 +26,6 @@ li {
 }
 
 /* MAIN */
-
-#hero {
-    background-color: #1abc9c;
-}
 
 .square {
     border-radius: 10px;
@@ -64,10 +63,5 @@ li {
 /* FOOTER */
 
 footer {
-    background-color:#3a546d ;
     color:#fff;
-}
-
-.post-footer {
-    background-color: #2c3e50;
 }
