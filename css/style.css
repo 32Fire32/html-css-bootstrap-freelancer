@@ -24,12 +24,16 @@ section {
     font-size: 1.5625rem;
 }
 
+.star {
+    color: inherit;
+}
+
 .star::before {
     content: '';
     display: block;
     height: 4px;
     width: 70px;
-    background-color: #fff;
+    background-color: currentColor;
     border-radius: 10px;
     margin-right: 10px;
 }
@@ -39,7 +43,7 @@ section {
     display: block;
     height: 4px;
     width: 70px;
-    background-color: #fff;
+    background-color:currentColor;
     border-radius: 10px;
     margin-left: 10px;
 }
