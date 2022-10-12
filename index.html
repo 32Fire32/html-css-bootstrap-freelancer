@@ -101,18 +101,18 @@
                 </div>                
         </section>
         <section id="about" class=" primary-color">
-            <div class="container text-center">
-                <div class="row text-center justify-content-sm-center">
+            <div class="ms-container text-center">
+                <div class="row justify-content-sm-center">
                     <div class="title d-flex flex-column align-items-center">
                         <h2>ABOUT</h2>
                         <div class="star d-flex align-items-center my-3">
                             <i class="fa-solid fa-star"></i>
                         </div>
                     </div>    
-                    <div class="col-12 col-sm-5">
+                    <div class="col-12 col-sm-6 text-start">
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur velit similique in nemo reiciendis. Eius ducimus repellat iusto ipsa, delectus libero in non quas minima nulla iste placeat magni nemo?</p>
                     </div>
-                    <div class="col-12 col-sm-5">
+                    <div class="col-12 col-sm-6 text-start">
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta nobis ad repellendus repellat ab sint? Quae accusamus quos deserunt eius distinctio corrupti nostrum harum? Veritatis laudantium accusamus mollitia laboriosam repellendus.</p>
                     </div>
                 </div>
@@ -120,11 +120,24 @@
             </div>
         </section> 
         <section id="contact-me">
-            <div class="container ">
-                <div class="row text-center">
-                    <h2>CONTACT ME</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio, sit placeat. Quisquam reprehenderit velit consequuntur cupiditate, dignissimos aut soluta hic ducimus, accusantium ea eos repudiandae qui nostrum, eaque laboriosam delectus.</p>
+            <div class="ms-container">
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="Insert Name">
+                    <label for="floatingInput">Name</label>
                 </div>
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Email address</label>
+                </div>
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="Phone Number">
+                    <label for="floatingInput">Phone Number</label>
+                </div>
+                <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" style="height: 150px"></textarea>
+                    <label for="floatingTextarea">Message</label>
+                  </div>
+                  <button type="button" class="btn primary-color color-text-white mt-3">Send</button>
             </div>
         </section>       
     </main>    

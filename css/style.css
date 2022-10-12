@@ -5,9 +5,14 @@
 
 /* COMMON */
 
+.ms-container {
+    max-width: 62.5rem;
+    margin:auto;
+}
+
 section {
-    margin-bottom: 30px;
-    padding: 30px;
+    margin-bottom: 1.875rem;
+    padding: 1.875rem;
 }
 
 /* MAIN */
